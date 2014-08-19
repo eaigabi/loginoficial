@@ -61,7 +61,7 @@ if(isset($_POST['email']) and isset ($_POST['senha']))
 else
 {
     //Caso algum usuário tente acessar o arquivo login diretamente sem passar pelo frmlogin.php
-    echo '<scrip type="text/javascript">
+    echo '<script type="text/javascript">
           location.href="frmlogin.php"
           </script>';
 }
